@@ -1,0 +1,178 @@
+@import "../variables/colors";
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#personal-info {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  @media(max-width: 425px){ 
+    flex-direction: column;
+    text-align: center;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+  @media(max-width: 425px){ 
+    justify-content: center;
+  }
+  }
+}
+
+.github,
+.linkedin {
+  transition: 0.5s ease;
+}
+
+.fa-github {
+  color: $github;
+}
+
+.github:hover {
+  color: $github;
+}
+
+.linkedin:hover {
+  color: $linkedin;
+}
+
+.fa-linkedin {
+  color: $linkedin;
+}
+
+.profile-file {
+  object-fit: cover;
+  img {
+    width: 10rem;
+    border-radius: 50%;
+  }
+}
+
+.hover {
+  transition: 0.5s ease;
+  cursor: pointer;
+  &:hover {
+    color: $yellowish;
+  }
+}
+
+/*divider*/
+
+#divider {
+  margin: 5rem auto 0 auto;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  max-width: 150px;
+  h1 {
+    border-bottom: 8px solid $title-text-color;
+    border-radius: 2.5px;
+  }
+}
+
+/*divider*/
+
+/*Projects section*/
+
+#projects {
+  margin-top: 5rem;
+}
+
+.project {
+  width: 100%;
+  background-color: $background-project-color;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  img {
+    width: 100%;
+  }
+}
+
+.project + .project{ 
+  margin-top: 4rem;
+}
+
+.project-info {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+.project-info-hover {
+  transition: 0.5s ease;
+  cursor: pointer;
+  &:hover {
+    color: $yellowish;
+  }
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.vue,
+.sass,
+.html,
+.js,
+.css {
+  padding-inline: 1rem;
+  padding-block: 0.3rem;
+  border-radius: 6px;
+  font-size: 2rem;
+}
+
+.vue {
+  color: $vue;
+}
+
+.js {
+  color: $javascript;
+}
+
+.sass {
+  color: $sass;
+}
+
+.html {
+  color: $html;
+}
+
+.css {
+  color: $css;
+}
+
+.code-demo {
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+  margin-top: 1rem;
+  padding: .4rem;
+
+  button + button i{ 
+    color: $yellowish;
+  }
+}

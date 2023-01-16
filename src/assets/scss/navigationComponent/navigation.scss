@@ -1,0 +1,35 @@
+@import "../variables/colors";
+
+* {
+  color: $title-text-color;
+}
+
+#headerVueComponent {
+  max-width: 700px;
+  margin: 3rem auto 3rem auto;
+  @media (max-width: 475px) {
+    padding: 0.5rem;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 0.5rem;
+  ul {
+    display: flex;
+    gap: 1rem;
+    li a {
+      color: $title-text-color;
+      transition: 0.5s ease;
+      &:hover {
+        color: $yellowish;
+      }
+    }
+  }
+}
+
+#logo {
+  font-size: 1.5rem;
+}

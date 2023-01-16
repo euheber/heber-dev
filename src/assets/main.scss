@@ -1,0 +1,28 @@
+@import "./scss/variables/colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  background-color: $background-color;
+  scroll-behavior: smooth;
+}
+
+
+body{ 
+  padding-bottom: 3rem;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $yellowish; 
+    border-radius: 10px;
+  }
+}

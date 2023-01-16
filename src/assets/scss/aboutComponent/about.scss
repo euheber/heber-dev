@@ -1,0 +1,62 @@
+@import "../variables/colors";
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  @media(max-width: 475px){
+    padding: .6rem
+  }
+}
+
+#myStack {
+  margin-top: 2rem;
+  ul {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+    justify-content: center;
+  }
+}
+
+.github,
+.sass,
+.branch,
+.html,
+.javascript,
+.css,
+.vue {
+  font-size: 2rem;
+}
+
+.github {
+  color: $github;
+}
+
+.html {
+  color: $html;
+}
+
+.javascript {
+  color: $javascript;
+}
+
+.vue {
+  color: $vue;
+}
+
+.css {
+  color: $css;
+}
+
+.branch {
+  color: $html;
+}
+
+.sass {
+  color: $sass;
+}
