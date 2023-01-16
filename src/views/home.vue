@@ -156,13 +156,12 @@
             </div>
         </section>
     </main>
-
-    <footerComponentVue />
+    <footerComponent />
 </template>
 
 <script setup>
 import navigation from '@/components/navigation/navigation.vue';
-import footerComponentVue from '../components/footer/footerComponent.vue';
+import footerComponent from '../components/footer/footerComponent.vue';
 </script>
 
 
