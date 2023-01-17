@@ -62,16 +62,18 @@
                 </div>
             </div>
 
-            <div class="project">
+            <div class="project" v-motion-fade-visible>
                 <img src="/card-images/Empire-Burguer_.png" alt="Empire Burguer Landpage" loading="lazy">
                 <div class="project-info">
                     <h1>Empire Burguer Landpage</h1>
                     <p>
-                        Primeiro desafio disponibilizado pela plataforma  <a href="https://www.brchallenges.com/" target="_blank"
-                            class="project-info-hover">BRChallenges</a>. 
-                    </p> 
+                        Primeiro desafio disponibilizado pela plataforma <a href="https://www.brchallenges.com/"
+                            target="_blank" class="project-info-hover">BRChallenges</a>.
+                    </p>
                     <p>
-                        A dificuldade escolhida para fazer o projeto foi a díficil, nela tive que seguir alguns critérios: Usar o CSS grid e o conteúdo do cardárpio precisava ser feito por meio de uma requisição de API. 
+                        A dificuldade escolhida para fazer o projeto foi a díficil, nela tive que seguir alguns
+                        critérios: Usar o CSS grid e o conteúdo do cardárpio precisava ser feito por meio de uma
+                        requisição de API.
                     </p>
 
                     <ul class="stack">
@@ -95,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="project">
+            <div class="project" v-motion-fade-visible>
                 <img src="/card-images/Spotify-website-clone_.png" alt="Empire Burguer Landpage" loading="lazy">
                 <div class="project-info">
                     <h1>Spotify clone</h1>
@@ -124,8 +126,8 @@
                 </div>
             </div>
 
-            <div class="project">
-                <img src="/card-images/Rock-paper-scissors-game_.png" alt="Sunnyside agency" loading="lazy">
+            <div class="project" v-motion-fade-visible>
+                <img src="/card-images/Rock-paper-scissors-game_.png" alt="Pedra, papel, tesoura" loading="lazy">
                 <div class="project-info">
                     <h1>Pedra, papel, tesoura</h1>
                     <p>
@@ -162,11 +164,8 @@
 <script setup>
 import navigation from '@/components/navigation/navigation.vue';
 import footerComponent from '../components/footer/footerComponent.vue';
+
 </script>
-
-
-
-
 
 
 
