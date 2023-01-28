@@ -157,16 +157,16 @@
                 </div>
             </div>
         </section>
+
+        <h3>
+            <RouterLink :to="{name: 'project'}" class="hover">Todos os projetos</RouterLink>
+        </h3>
     </main>
-    <footerComponent />
 </template>
 
 <script setup>
 import navigation from '@/components/navigation/navigation.vue';
-import footerComponent from '../components/footer/footerComponent.vue';
-
+import { RouterLink } from 'vue-router'; 
 </script>
-
-
 
 <style scoped lang="scss" src="../assets/scss/homeComponent/home.scss"/>

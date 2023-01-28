@@ -1,15 +1,7 @@
 @import "../variables/colors";
 
 *{
-    margin: 0;
-    padding: 0;
     background-color: transparent;
-}
-
-main {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
 #personal-info {
@@ -175,4 +167,9 @@ main {
   button + button i{ 
     color: $yellowish;
   }
+}
+
+h3{
+  text-align: center;
+  margin-top: 3rem;
 }

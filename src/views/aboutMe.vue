@@ -1,6 +1,5 @@
 <template>
     <navigation />
-
     <main>
         <p>
             Tenho 25 anos, estudo programação há mais de um ano e recentemente venho me empenhando para conseguir a primeira
@@ -34,9 +33,7 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
 import navigation from '../components/navigation/navigation.vue';
-import footerComponent from '../components/footer/footerComponent.vue';
 </script>
 
 <style lang="scss" scoped src="../assets/scss/aboutComponent/about.scss" />
