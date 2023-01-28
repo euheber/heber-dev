@@ -1,5 +1,4 @@
 <template>
-        <navigation />
     <main>
         <h1>Todos os projetos</h1>
     </main>

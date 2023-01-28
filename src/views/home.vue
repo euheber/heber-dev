@@ -1,5 +1,4 @@
 <template>
-    <navigation />
     <main>
         <section id="personal-info">
             <div class="profile-file">

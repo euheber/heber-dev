@@ -1,5 +1,4 @@
 <template>
-    <navigation />
     <main>
         <p>
             Tenho 25 anos, estudo programação há mais de um ano e recentemente venho me empenhando para conseguir a primeira
