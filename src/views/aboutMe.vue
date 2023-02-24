@@ -4,10 +4,13 @@
             <myBtnVue @click="activeComponent = aboutMeContent">Sobre mim</myBtnVue>
             <myBtnVue @click="activeComponent = resume">Curriculo</myBtnVue>
         </section>
-        <KeepAlive>
-            <component :is="activeComponent" />
-        </KeepAlive>
 
+        <transition enter-active-class="animate__animated animate__fadeIn animate__fast" 
+            leave-active-class="animate__animated animate__fadeOut animate__fast" mode="out-in">
+            <KeepAlive>
+                <component :is="activeComponent" />
+            </KeepAlive>
+        </transition>
     </main>
 </template>
 
@@ -20,6 +23,3 @@ let activeComponent = shallowRef(aboutMeContent)
 </script>
 
 <style lang="scss" scoped src="../assets/scss/aboutComponent/about.scss" />
-
-   
-

@@ -1,6 +1,6 @@
 <template>  
     <section>
-        <h1>Resume</h1>
+        <h1>Currículo</h1>
     </section>
 </template>
 

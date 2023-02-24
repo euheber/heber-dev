@@ -14,9 +14,11 @@
 }
 
 
+
+
 body{ 
   padding-bottom: 3rem;
-
+  overflow-x: hidden;
   &::-webkit-scrollbar {
     width: 2px;
   }
