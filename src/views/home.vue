@@ -158,13 +158,12 @@
         </section>
 
         <h3>
-            <RouterLink :to="{name: 'project'}" class="hover">Todos os projetos</RouterLink>
+            <RouterLink :to="{name: 'project'}" class="hover">Ver mais</RouterLink>
         </h3>
     </main>
 </template>
 
 <script setup>
-import navigation from '@/components/navigation/navigation.vue';
 import { RouterLink } from 'vue-router'; 
 </script>
 
