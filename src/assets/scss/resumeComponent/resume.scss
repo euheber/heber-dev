@@ -1,0 +1,53 @@
+@import "../variables/colors";
+
+section{ 
+    @media(max-width: 425px){
+        padding: .5rem;
+    }
+}
+
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: #a8a8a8;
+    margin-top: 1rem;
+}
+
+ul li{
+    list-style-type: circle;
+    // border: 1px solid red;
+    margin-left: 1rem;
+}
+
+p{
+    line-height: 2rem;
+}
+
+h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.job-experience{
+    margin-top: 1rem;
+    span{
+        display: block;
+    }
+    ul{
+        margin-top: 1rem;
+    }
+}
+
+.job{
+    font-weight: 700;
+    color: $yellowish;
+}
+
+.company, .date{
+    font-size: .9rem;
+}
+
+.job-description{
+    line-height: 1rem;
+    margin-top: 1rem;
+}

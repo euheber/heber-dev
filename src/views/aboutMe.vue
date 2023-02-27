@@ -15,11 +15,12 @@
 </template>
 
 <script setup>
-import { shallowRef } from 'vue';
 import aboutMeContent from '../components/about/aboutMeContent.vue';
 import myBtnVue from '../components/buttons/myBtn.vue';
 import resume from '../components/resume/resume.vue';
+import { shallowRef } from 'vue';
+
 let activeComponent = shallowRef(aboutMeContent)
 </script>
 
-<style lang="scss" scoped src="../assets/scss/aboutComponent/about.scss" />
+<style lang="scss" scoped src="../assets/scss/aboutView/about.scss" />

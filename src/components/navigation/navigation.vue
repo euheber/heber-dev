@@ -15,7 +15,6 @@
             </ul>
         </nav>
     </header>
-
 </template>
 
 <script setup>

@@ -1,0 +1,14 @@
+@import "../variables/colors";
+
+.subhead::first-letter {
+  -webkit-initial-letter: 4 1;
+  initial-letter: 3 1;
+  color: $yellowish;
+  font-weight: bold;
+  margin-right: 0.15em;
+}
+
+p{
+   line-height: 2rem;
+   margin-top: .5rem;
+}

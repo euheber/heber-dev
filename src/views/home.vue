@@ -10,17 +10,26 @@
                         <router-link class="hover" to="/about">aqui</router-link></strong>.
                 </p>
 
-                <ul>
+                <ul class="socials">
                     <li>
                         <i class="fa-brands fa-github"></i> <a href="https://github.com/euheber" class="github"
                             target="_blank"> Github</a>
                     </li>
 
                     <li>
-                        <i class="fa-brands fa-linkedin "></i> <a
-                            href="https://www.linkedin.com/in/heber-robert-2426a9180/" class="linkedin"
-                            target="_blank">Linkedin</a>
+                        <i class="fa-brands fa-linkedin "></i> <a href="https://www.linkedin.com/in/heber-robert-2426a9180/"
+                            class="linkedin" target="_blank">Linkedin</a>
                     </li>
+                </ul>
+
+                <ul class="myStack">
+                    <li><i class="fa-brands fa-html5 htmlStack"></i></li>
+                    <li><i class="fa-brands fa-css3-alt cssStack"></i></li>
+                    <li><i class="fa-brands fa-sass sassStack"></i></li>
+                    <li><i class="fa-brands fa-js javascriptStack"></i></li>
+                    <li><i class="fa-brands fa-vuejs vueStack"></i></li>
+                    <li><i class="fa-brands fa-github githubStack"></i></li>
+                    <li><i class="fa-brands fa-git-alt branchStack"></i></li>
                 </ul>
             </div>
         </section>
@@ -144,22 +153,22 @@
 
                     <div class="code-demo">
                         <button>
-                            <a href="https://github.com/euheber/Rock-paper-scissors-game" target="_blank"
-                                class="github"> <i class="fa-brands fa-github"></i> Repositório</a>
+                            <a href="https://github.com/euheber/Rock-paper-scissors-game" target="_blank" class="github"> <i
+                                    class="fa-brands fa-github"></i> Repositório</a>
                         </button>
 
                         <button>
-                            <a href="https://euheber.github.io/Rock-paper-scissors-game/" target="_blank"
-                                class="hover"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            <a href="https://euheber.github.io/Rock-paper-scissors-game/" target="_blank" class="hover"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
                         </button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <h3>
+        <!-- <h3>
             <RouterLink :to="{name: 'project'}" class="hover">Ver mais</RouterLink>
-        </h3>
+        </h3> -->
     </main>
 </template>
 
