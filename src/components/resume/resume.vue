@@ -1,7 +1,7 @@
 <template>
     <section>
         <p>
-            Desenvolvedor Frontend com experiência com Javascript, Vue, sass, git e github e atualmente estudando
+            Desenvolvedor Frontend com experiência em Javascript, Vue, sass, git e github e atualmente estudando
             Nuxt.
             Para me manter atualizado, cursos da Udemy e eventos da Rocketseat são uns dos meios utilizados para
             me desenvolver melhor profissionalmente. Gosto de me desafiar, por isso, uso sites como o frontend
