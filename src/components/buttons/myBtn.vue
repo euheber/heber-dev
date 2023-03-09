@@ -24,4 +24,8 @@ button {
         border: 1px solid rgb(185, 185, 185);
     }
 }
+
+.active { 
+    color: #fabc3c;
+}
 </style>

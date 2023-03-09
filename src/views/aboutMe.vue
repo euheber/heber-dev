@@ -1,8 +1,8 @@
 <template>
     <main>
         <section class="btn-container">
-            <myBtnVue @click="activeComponent = aboutMeContent">Sobre mim</myBtnVue>
-            <myBtnVue @click="activeComponent = resume">Curriculo</myBtnVue>
+            <myBtnVue @click="activeComponent = aboutMeContent" :class="[activeComponent === aboutMeContent ? 'active' :'']">Sobre mim</myBtnVue>
+            <myBtnVue @click="activeComponent = resume" :class="[activeComponent === resume ? 'active' :'']">Curriculo</myBtnVue>
         </section>
 
         <transition enter-active-class="animate__animated animate__fadeIn animate__fast" 
