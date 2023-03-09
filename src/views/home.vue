@@ -49,11 +49,11 @@
                     <p>O projeto faz parte de um desafio do <a href="https://www.brchallenges.com/" target="_blank"
                             class="project-info-hover">BRChallenges</a></p>
                     <ul class="stack">
-                        <li><i class="fa-brands fa-vuejs vue"></i></li>
-                        <li><i class="fa-brands fa-square-js js"></i></li>
-                        <li><i class="fa-brands fa-sass sass"></i></li>
-                        <li><i class="fa-brands fa-css3-alt css"></i></li>
                         <li><i class="fa-brands fa-html5 html"></i></li>
+                        <li><i class="fa-brands fa-css3-alt css"></i></li>
+                        <li><i class="fa-brands fa-sass sass"></i></li>
+                        <li><i class="fa-brands fa-square-js js"></i></li>
+                        <li><i class="fa-brands fa-vuejs vue"></i></li>
                     </ul>
                 </div>
 
@@ -67,6 +67,72 @@
                         <a href="https://euheber.github.io/Blizzard-landpage/" target="_blank" class="hover"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
                     </button>
+                </div>
+            </div>
+
+            <div class="project" v-motion-fade-visible>
+                <img src="/card-images/devcommerce.png" alt="Pedra, papel, tesoura" loading="lazy">
+                <div class="project-info">
+                    <h1>E-commerce</h1>
+                    <p>
+                        Essa foi uma das experiências mais recentes que tive e foi muito interessante, principalmente porque esse projeto foi feito em dupla com um amigo meu. Usamos vue e pela primeira vez usei o Pinia no lugar do Vuex para controlar o estado da aplicação.
+                    </p>
+                    
+                    <ul class="stack">
+                        <li><i class="fa-brands fa-html5 html"></i></li>
+                        <li><i class="fa-brands fa-css3-alt css"></i></li>
+                        <li><i class="fa-brands fa-sass sass"></i></li>
+                        <li><i class="fa-brands fa-square-js js"></i></li>
+                        <li><i class="fa-brands fa-vuejs vue"></i></li>
+                        <li>
+                            <img src="/pinia.svg" alt="Pinia icon">
+                        </li>
+                    </ul>
+
+                    <div class="code-demo">
+                        <button>
+                            <a href="https://github.com/euheber/dev-commerce" target="_blank" class="github"> <i
+                                    class="fa-brands fa-github"></i> Repositório</a>
+                        </button>
+
+                        <button>
+                            <a href="https://dev-commerce-ec.vercel.app/" target="_blank" class="hover"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+              <div class="project" v-motion-fade-visible>
+                <img src="/card-images/spacetravel.png" alt="Pedra, papel, tesoura" loading="lazy">
+                <div class="project-info">
+                    <h1>Space travel</h1>
+                    <p>
+                        Utilizei Vue router para fazer essa aplicação de uma empresa ficticia de viagem espacial. 
+                        Aqui pude aprender um pouco melhor entre animar a troca de componentes com o vue.
+                    </p>
+                    <p>O projeto faz parte de um desafio do <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3" target="_blank"
+                            class="project-info-hover">Frontend Mentor</a></p>
+                    
+                    <ul class="stack">
+                        <li><i class="fa-brands fa-html5 html"></i></li>
+                        <li><i class="fa-brands fa-css3-alt css"></i></li>
+                        <li><i class="fa-brands fa-sass sass"></i></li>
+                        <li><i class="fa-brands fa-square-js js"></i></li>
+                        <li><i class="fa-brands fa-vuejs vue"></i></li>
+                    </ul>
+
+                    <div class="code-demo">
+                        <button>
+                            <a href="https://github.com/euheber/space-tourism" target="_blank" class="github"> <i
+                                    class="fa-brands fa-github"></i> Repositório</a>
+                        </button>
+
+                        <button>
+                            <a href="https://space-tourism-beryl.vercel.app/" target="_blank" class="hover"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -85,9 +151,9 @@
                     </p>
 
                     <ul class="stack">
-                        <li><i class="fa-brands fa-square-js js"></i></li>
-                        <li><i class="fa-brands fa-css3-alt css"></i></li>
                         <li><i class="fa-brands fa-html5 html"></i></li>
+                        <li><i class="fa-brands fa-css3-alt css"></i></li>
+                        <li><i class="fa-brands fa-square-js js"></i></li>
                     </ul>
 
 
@@ -115,9 +181,9 @@
                         responsividade.
                     </p>
                     <ul class="stack">
-                        <li><i class="fa-brands fa-square-js js"></i></li>
-                        <li><i class="fa-brands fa-css3-alt css"></i></li>
                         <li><i class="fa-brands fa-html5 html"></i></li>
+                        <li><i class="fa-brands fa-css3-alt css"></i></li>
+                        <li><i class="fa-brands fa-square-js js"></i></li>
                     </ul>
 
                     <div class="code-demo">
@@ -134,41 +200,8 @@
                 </div>
             </div>
 
-            <div class="project" v-motion-fade-visible>
-                <img src="/card-images/Rock-paper-scissors-game_.png" alt="Pedra, papel, tesoura" loading="lazy">
-                <div class="project-info">
-                    <h1>Pedra, papel, tesoura</h1>
-                    <p>
-                        Fazer um jogo simples como pedra, papel e tesoura se provou uma ótima maneira de exercitar a
-                        lógica de programação. Com esse projeto pude colocar em pratica boa parte do que aprendi com o
-                        curso de javascript.
-                    </p>
-                    <p>O projeto faz parte de um desafio do <a href="https://www.frontendmentor.io/" target="_blank"
-                            class="project-info-hover">Frontend Mentor</a></p>
-                    <ul class="stack">
-                        <li><i class="fa-brands fa-square-js js"></i></li>
-                        <li><i class="fa-brands fa-css3-alt css"></i></li>
-                        <li><i class="fa-brands fa-html5 html"></i></li>
-                    </ul>
-
-                    <div class="code-demo">
-                        <button>
-                            <a href="https://github.com/euheber/Rock-paper-scissors-game" target="_blank" class="github"> <i
-                                    class="fa-brands fa-github"></i> Repositório</a>
-                        </button>
-
-                        <button>
-                            <a href="https://euheber.github.io/Rock-paper-scissors-game/" target="_blank" class="hover"><i
-                                    class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
+          
         </section>
-
-        <!-- <h3>
-            <RouterLink :to="{name: 'project'}" class="hover">Ver mais</RouterLink>
-        </h3> -->
     </main>
 </template>
 
