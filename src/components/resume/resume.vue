@@ -2,7 +2,7 @@
     <section>
         <p>
             Desenvolvedor Frontend com experiência em Javascript, Vue, sass, git e github e atualmente estudando
-            Nuxt.
+            Typescript.
             Para me manter atualizado, cursos da Udemy e eventos da Rocketseat são uns dos meios utilizados para
             me desenvolver melhor profissionalmente. Gosto de me desafiar, por isso, uso sites como o frontend
             mentor para praticar exercícios de programação.
