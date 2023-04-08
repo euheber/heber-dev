@@ -78,10 +78,10 @@
         <div class="divider"></div>
 
         <div class="courses">
-            <h2>Cursos e Certificados</h2>
+            <h2>Cursos</h2>
             <ul>
                 <li>
-                    Udemy - Desenvolvimento web(html, css, javascript, sass
+                    Udemy - Desenvolvimento web(html, css, javascript, sass)
                 </li>
                 <li>
                     Udemy - Desenvolvimento web avançado com Vue
