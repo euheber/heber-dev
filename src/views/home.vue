@@ -26,8 +26,15 @@
                     <li><i class="fa-brands fa-html5 htmlStack"></i></li>
                     <li><i class="fa-brands fa-css3-alt cssStack"></i></li>
                     <li><i class="fa-brands fa-sass sassStack"></i></li>
+                    <li>
+                        <img src="/tailwind.svg" alt="Tailwind icon" class="tailwind">
+                     </li>
                     <li><i class="fa-brands fa-js javascriptStack"></i></li>
+                    <li>
+                        <img src="/typescript.svg" alt="Typescript icon" class="typescript">
+                     </li>
                     <li><i class="fa-brands fa-vuejs vueStack"></i></li>
+                    <li><i class="fa-brands fa-node-js nodeStack"></i></li>
                     <li><i class="fa-brands fa-github githubStack"></i></li>
                     <li><i class="fa-brands fa-git-alt branchStack"></i></li>
                 </ul>
@@ -71,18 +78,22 @@
             </div>
 
             <div class="project" v-motion-fade-visible>
-                <img src="/card-images/devcommerce.png" alt="Pedra, papel, tesoura" loading="lazy">
+                <img src="/card-images/paquetastore.png" alt="Paqueta store" loading="lazy">
                 <div class="project-info">
-                    <h1>E-commerce</h1>
+                    <h1>Paqueta Store</h1>
                     <p>
-                        Essa foi uma das experiências mais recentes que tive e foi muito interessante, principalmente porque esse projeto foi feito em dupla com um amigo meu. Usamos vue e pela primeira vez usei o Pinia no lugar do Vuex para controlar o estado da aplicação.
+                        Essa foi a segunda vez que fiz um e-commerce. Para colocar um desafio a mais, optei por utilizar linguagens e frameworks que não utilizava com tanta frequência como o Typescript e o Tailwind.
                     </p>
                     
                     <ul class="stack">
                         <li><i class="fa-brands fa-html5 html"></i></li>
                         <li><i class="fa-brands fa-css3-alt css"></i></li>
-                        <li><i class="fa-brands fa-sass sass"></i></li>
-                        <li><i class="fa-brands fa-square-js js"></i></li>
+                        <li>
+                            <img src="/tailwind.svg" alt="Tailwind icon" class="tlw">
+                        </li>
+                        <li>
+                            <img src="/typescript.svg" alt="Typescript icon" class="ts">
+                        </li>
                         <li><i class="fa-brands fa-vuejs vue"></i></li>
                         <li>
                             <img src="/pinia.svg" alt="Pinia icon">
@@ -91,12 +102,12 @@
 
                     <div class="code-demo">
                         <button>
-                            <a href="https://github.com/euheber/dev-commerce" target="_blank" class="github"> <i
+                            <a href="https://github.com/euheber/paquetaStore" target="_blank" class="github"> <i
                                     class="fa-brands fa-github"></i> Repositório</a>
                         </button>
 
                         <button>
-                            <a href="https://dev-commerce-ec.vercel.app/" target="_blank" class="hover"><i
+                            <a href="https://paqueta-store.vercel.app" target="_blank" class="hover"><i
                                     class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
                         </button>
                     </div>

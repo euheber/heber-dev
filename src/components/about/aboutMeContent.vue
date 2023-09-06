@@ -2,7 +2,7 @@
     <section>
         <p class="subhead">
             Olá, eu me chamo Heber, sou desenvolvedor front end.
-            Tenho experiências com javascript, sass, html e recentemente tenho estudado Vue de forma aprofundada.
+            Tenho experiências com Javascript, Typescript, Sass, Tailwind, Vue, Html e recentemente tenho estudado Node
         </p>
         <p>
             Coloquei um pouco dessas experiências em alguns projetos pessoais que desenvolvi ao longo da minha constante

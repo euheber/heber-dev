@@ -1,7 +1,7 @@
 @import "../variables/colors";
 
-*{
-    background-color: transparent;
+* {
+  background-color: transparent;
 }
 
 #personal-info {
@@ -9,9 +9,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;  
+  gap: 2rem;
 
-  @media(max-width: 425px){ 
+  @media (max-width: 425px) {
     flex-direction: column;
     text-align: center;
   }
@@ -23,10 +23,10 @@
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
-    
-  @media(max-width: 425px){ 
-    justify-content: center;
-  }
+
+    @media (max-width: 425px) {
+      justify-content: center;
+    }
   }
 }
 
@@ -97,7 +97,7 @@
   }
 }
 
-.project + .project{ 
+.project + .project {
   margin-top: 4rem;
 }
 
@@ -122,15 +122,18 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 2rem;
-  gap: 1rem;
+  gap: .7rem;
   justify-content: center;
+  align-items: center;
 }
 
 .vue,
 .sass,
 .html,
 .js,
-.css {
+.css,
+.ts,
+.tlw{
   padding-inline: 1rem;
   padding-block: 0.3rem;
   border-radius: 6px;
@@ -157,19 +160,31 @@
   color: $css;
 }
 
+.typescript {
+  width: 24px;
+  height: 22px;
+  margin-top: 0.2rem;
+}
+
+.tailwind {
+  width: 24px;
+  height: 22px;
+  margin-top: 0.2rem;
+}
+
 .code-demo {
   display: flex;
   gap: 1rem;
   justify-content: end;
   margin-top: 1rem;
-  padding: .4rem;
+  padding: 0.4rem;
 
-  button + button i{ 
+  button + button i {
     color: $yellowish;
   }
 }
 
-h3{
+h3 {
   text-align: center;
   margin-top: 3rem;
 }
@@ -180,11 +195,12 @@ h3{
 .htmlStack,
 .javascriptStack,
 .cssStack,
-.vueStack {
+.vueStack,
+.nodeStack {
   font-size: 1.5rem;
 }
 
-.pinia{
+.pinia {
   width: 24px;
 }
 
@@ -216,15 +232,18 @@ h3{
   color: $sass;
 }
 
-.myStack{
+.nodeStack {
+  color: $node;
+}
+
+.myStack {
   margin-top: 1rem;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
   gap: 1rem;
 
-  @media(max-width: 425px){
+  @media (max-width: 425px) {
     justify-content: center;
   }
 }
-
